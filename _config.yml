@@ -1,0 +1,12 @@
+# Site settings
+title: JauriaStudios 
+email: j.l.toledano.l@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  The Jauria Studios is a team of friends that develop free/libre games
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jauriastudios.github.io" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  JauriaStudios
+
+# Build settings
+markdown: kramdown
