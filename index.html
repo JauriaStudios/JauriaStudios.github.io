@@ -19,7 +19,15 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
+  <h1 class="page-heading">Projects</h1>
+
+  <ul class="post-list">
+  
   {% for repository in site.github.public_repositories %}
-    * [{{ repository.name }}]({{ repository.html_url }})
+    <li>
+      * [{{ repository.name }}]({{ repository.html_url }})
+    </li>
   {% endfor %}
+  </ul>
 </div>
